@@ -46,3 +46,7 @@ where landmarks1 and landmarks2 are landmarks of the first and second images, an
 4.For each pixel inside a triangle in the intermediate mesh, use the affine matrix to do inverse warp to locate its corresponding pixel in the input images. 
 
 5.Blend the pixel colors from two imput images using w, pixel_value = (1−w)⋅warped_img1 + w⋅warped_img2, this ensures a smooth transition between the two images.
+
+<img width="820" alt="Screenshot 2024-11-16 at 14 11 45" src="https://github.com/user-attachments/assets/55cf2204-68ea-4678-8aad-71be76678911">
+
+
