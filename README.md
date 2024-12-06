@@ -49,4 +49,5 @@ where landmarks1 and landmarks2 are landmarks of the first and second images, an
 
 <img width="820" alt="Screenshot 2024-11-16 at 14 11 45" src="https://github.com/user-attachments/assets/55cf2204-68ea-4678-8aad-71be76678911">
 
-
+### Further Development 
+The current implementation uses a for loop to iterate over the blending weight w for generating intermediate images. This can be optimized by vectorizing w for simultaneous computation of multiple morphing steps, improving efficiency.
